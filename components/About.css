@@ -1,0 +1,91 @@
+/* Base Styles */
+.about-page {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.title-section .title {
+  color: #ffffff;
+  animation: slideDown 1s ease-out;
+}
+
+.description {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Skills Section */
+.skills-section {
+  margin-top: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.skill-card {
+  width: 200px;
+  background: #ffffff;
+  color: #333333;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar-wrapper {
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, #f97316, #f59e0b);
+  height: 100%;
+  transition: width 0.6s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
