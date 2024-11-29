@@ -5,5 +5,23 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    
+
   }
+
+  /* body{
+    animation: apper linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40% ;
+  }
+  @keyframes apper{
+    from{
+      opacity: 0;
+      transform: translateZ(-100px);
+    }
+    to{
+      opacity: 1;
+      transform: translateZ(0px);
+    }
+  } */
 }

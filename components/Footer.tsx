@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto text-white">
         <div className="flex flex-col items-center md:flex-row justify-between">
           {/* Left Section: Social Links */}
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 md:mb-0 text-center">
             <h2 className="text-2xl font-bold">Follow Me</h2>
             <div className="mt-4 flex gap-6 justify-center">
               <a href="https://www.instagram.com/mudassir.chandio/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           {/* Right Section: Contact Info */}
-          <div>
+          <div className='text-center'>
             <h2 className="text-2xl font-bold">Contact Me</h2>
             <p className="mt-4">Email: <a href="mailto:chandiommudasir084@gmail.com" className="text-white hover:text-gray-200">chandiommudasir084@gmail.com</a></p>
             <p className="mt-2">Phone: <span className="text-white">+923279385722</span></p>
